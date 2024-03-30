@@ -9,8 +9,8 @@
         <id property="billId" column="bill_id"></id>
         <result property="userId" column="user_id"></result>
         <result property="sessionId" column="session_id"></result>
-        <association property="sysSession" column="session_id" select="com.shanzhu.cm.mapper.SysSessionMapper.findSessionById"></association>
-        <association property="sysUser" column="user_id" select="com.shanzhu.cm.mapper.SysUserMapper.findUserById"></association>
+        <association property="sysSession" column="session_id" select="com.marre.cm.mapper.SysSessionMapper.findSessionById"></association>
+        <association property="sysUser" column="user_id" select="com.marre.cm.mapper.SysUserMapper.findUserById"></association>
     </resultMap>
 
     <select id="findAllBills" parameterType="SysBill" resultMap="BillMap">

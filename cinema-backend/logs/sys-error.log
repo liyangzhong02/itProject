@@ -1,4 +1,4 @@
-10:11:10.189 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - [report,40] - 
+19:48:02.436 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - [report,40] - 
 
 ***************************
 APPLICATION FAILED TO START
@@ -6,9 +6,9 @@ APPLICATION FAILED TO START
 
 Description:
 
-No bean of type 'org.apache.shiro.realm.Realm' found.
+The bean 'corsFilter', defined in class path resource [com/marre/cm/common/config/QuartzConfig.class], could not be registered. A bean with that name has already been defined in class path resource [com/marre/cm/common/config/CorsConfig.class] and overriding is disabled.
 
 Action:
 
-Please create bean of type 'Realm' or add a shiro.ini in the root classpath (src/main/resources/shiro.ini) or in the META-INF folder (src/main/resources/META-INF/shiro.ini).
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
 

@@ -17,5 +17,6 @@ public interface SysHallService {
 
     int addHall(SysHall sysHall);
     int updateHall(SysHall sysHall);
-    int deleteHall(SysHall sysHall);
+
+    int deleteHall(SysHall[] sysHalls);
 }

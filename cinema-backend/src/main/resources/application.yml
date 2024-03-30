@@ -53,7 +53,7 @@ spring:
 
 #Mybatis配置
 mybatis:
-  type-aliases-package: com.shanzhu.cm.**.domain
+  type-aliases-package: com.marre.cm.**.domain
   mapper-locations: classpath*:mapper/**/*Mapper.xml
   configuration:
     map-underscore-to-camel-case: true
@@ -61,7 +61,7 @@ mybatis:
 #日志配置
 logging:
   level:
-    com.shanzhu: trace
+    com.marre: trace
     org.springframework: warn
 
 #数据库分页查询插件配置
