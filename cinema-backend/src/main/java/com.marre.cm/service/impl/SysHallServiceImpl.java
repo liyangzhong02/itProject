@@ -39,6 +39,7 @@ public class SysHallServiceImpl implements SysHallService {
         return sysHallMapper.updateHall(sysHall);
     }
 
+
     @Override
     public int deleteHall(SysHall[] sysHalls) {
         int rows = 0;

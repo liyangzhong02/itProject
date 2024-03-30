@@ -1,6 +1,5 @@
 package com.marre.cm.mapper;
 
-import com.marre.cm.domain.SysBill;
 import com.marre.cm.domain.SysHall;
 import org.apache.ibatis.annotations.Mapper;
 

@@ -6,7 +6,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 @Slf4j
 @SpringBootApplication
-@MapperScan("com.maare.cm.mapper")
+@MapperScan("com.marre.cm.mapper")
 public class BackendApplication {
 
     public static void main(String[] args) {
